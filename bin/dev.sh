@@ -1,0 +1,1 @@
+sh node ./script/dev.js

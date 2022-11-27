@@ -1,12 +1,19 @@
 {
-  "name": "web-magic",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC"
+	"name": "web-magic",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"dev": "sh ./bin/dev.sh"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"devDependencies": {
+		"esbuild-loader": "^2.20.0",
+		"glob": "^8.0.3",
+		"html-webpack-plugin": "^5.5.0",
+		"webpack": "^5.75.0",
+		"webpack-cli": "^5.0.0"
+	}
 }
